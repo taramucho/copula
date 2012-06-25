@@ -70,7 +70,7 @@ END
 
 PRO gauss_gauss
   COMMON XW, XW
-  XW = {sz:{x:200L,y:200L}, x:0L, y:800L}
+  XW = {sz:{x:300L, y:300L}, x:0L, y:700L, max_N:20, n:0}
   plotsym,0,1,/fill
 
 
